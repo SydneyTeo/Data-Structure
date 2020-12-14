@@ -1,13 +1,13 @@
-
-
-def calc_fib(n):
-    F = []
-    F[0] = 0
-    F[1] = 1
-    for i in range (2, n, 1):
-        F[i] = F[i-1] + F[i-2]
-    return F[n]
-
+FibArray = [1,1] 
+  
+def fibonacci(n): 
+    if n<=1:
+        return n
+    else: 
+        temp_fib = fibonacci(n-1)+fibonacci(n-2) 
+        FibArray.append(temp_fib) 
+        return temp_fib 
 
 n = int(input())
-print(calc_fib(n))
+print(fibonacci(n))
+
