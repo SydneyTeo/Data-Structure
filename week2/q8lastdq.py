@@ -4,7 +4,7 @@ def fib(n):
     a,b = 0, 1
     for i in range(2,n+1):
         c = (a+b)%10
-        a, b = b, c
+        a, b = b, c 
     return c
 
 n = int(input())
