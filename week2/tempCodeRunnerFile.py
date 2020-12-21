@@ -1,1 +1,1 @@
-n
+ibArray[i-1] + FibArray[i-2
