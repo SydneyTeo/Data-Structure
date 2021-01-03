@@ -15,7 +15,8 @@ def binary_search(a, x, left, right):
     return r
 
 if __name__ == '__main__':
-    input = sys.stdin.read()
+    # input = sys.stdin.read()
+    input = input()
     data = list(map(int, input.split()))
     n = data[0]
     m = data[n + 1]
